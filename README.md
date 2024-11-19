@@ -45,3 +45,64 @@ As it shows below:
 ![RunningApp Screenshot 4](https://github.com/user-attachments/assets/890758b7-5daa-4145-8ce7-56ae30048302)
 
 the app is meant to look fun and fresh and to be interactive where it motivates you to want to run and track your progress.
+
+Psuedocode for the app:
+
+Start
+
+//Define arrays
+
+days=arrayOf("monday".. "sunday")
+
+//Define an empty array to store log entries
+
+array= runningLog
+
+for each day in days:
+
+day:(string)name of the day
+
+morningKilometers:(float)kilometers ran in the morning
+
+afternoonKilometers:(float)kilometers ran in the afternoon
+
+notes:(string)additional notes
+
+output print "enter morning kilometers for", day
+
+input morningKilometers
+
+output print "enter afternoon kilometers for",day
+
+input afternoonKilometers
+
+output print "enter notes for",day
+
+input notes
+
+runningEntry.day=day
+
+runningEntry.morningKilometers=morningKilometers
+
+runningEntry.afternoonKilometers=afternoonKilometers
+
+runningEntry.notes=notes
+
+add runningEntry to runningLog
+
+output print "Running Log:"
+
+for each entry in runningLog:
+
+print"day:", entry.day
+
+print"morning kilometers:",entry.morningKilometers
+
+print"afteroon kilometers:", entry.afternoonKilometers
+
+print"notes:", entry.notes
+
+Stop
+
+link to GitHub:
+
