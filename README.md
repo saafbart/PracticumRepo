@@ -104,5 +104,5 @@ print"notes:", entry.notes
 
 Stop
 
-link to GitHub:
+link to GitHub:https://github.com/saafbart/PracticumRepo.git
 
